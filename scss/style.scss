@@ -1,33 +1,41 @@
 body {
   font-family: Verdana;
-  font-size: 1.5em; }
+  font-size: 1.5em;
+}
 
 #team-members {
-  clear: both; }
+  clear: both;
+}
 
 #team-members .member {
   float: left;
   /*border: 1px solid gray;*/
   margin: 10px;
-  padding: 6px; }
+  padding: 6px;
+}
 
 #team-members .member img {
   width: 200px;
   height: 200px;
   border-radius: 15px;
-  box-shadow: 5px 5px 5px #aaaaaa; }
-
+  box-shadow: 5px 5px 5px #aaaaaa;
+}
 #team-members .member:hover .overlay {
   width: 200px;
   height: 200px;
   border-radius: 15px;
   box-shadow: 5px 5px 5px #aaaaaa;
-  background: transparent url("don_burks.jpg") no-repeat; }
+  background: transparent url('don_burks.jpg') no-repeat;
+}
 
 #team-members .member div.name {
-  text-align: center; }
+  text-align: center;  
+}
 
-body h1 {
-  color: #FF0000; }
+$primaryColor: #FF0000;
+body {
+  h1 {
+    color: $primaryColor; 
+  }
+}
 
-/*# sourceMappingURL=style.css.map */
