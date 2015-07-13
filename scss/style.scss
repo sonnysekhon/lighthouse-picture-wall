@@ -20,12 +20,15 @@ body {
   border-radius: 15px;
   box-shadow: 5px 5px 5px #aaaaaa;
 }
-#team-members .member:hover .overlay {
-  width: 200px;
-  height: 200px;
-  border-radius: 15px;
-  box-shadow: 5px 5px 5px #aaaaaa;
-  background: transparent url('don_burks.jpg') no-repeat;
+
+#team-members .member:hover img {
+    opacity: 0.5;
+    transform: translate(5px,5px);
+}
+
+#team-members .member:hover img:first-child {
+    opacity: 0.5;
+    transform: translate(5px,5px);
 }
 
 #team-members .member div.name {
